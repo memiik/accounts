@@ -10,7 +10,6 @@ import lombok.ToString;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 
-
 @Entity
 @Table(name = "accounts")
 @Getter @Setter @ToString
