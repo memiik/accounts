@@ -11,4 +11,6 @@ public interface AccountsService {
     void createAccount(CustomerDto customerDto);
 
     CustomerDto getAccountDetails(String mobileNumber);
+
+    boolean updateAccount(CustomerDto customerDto);
 }
